@@ -1,0 +1,48 @@
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\bin\Debug\Black protect.exe
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\bin\Debug\Black protect.pdb
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\bin\Debug\Black protect.xml
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\obj\Debug\Black_protect.Form1.resources
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\obj\Debug\Black_protect.Resources.resources
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\obj\Debug\Black protect.vbproj.GenerateResource.Cache
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\obj\Debug\Black protect.exe
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\obj\Debug\Black protect.xml
+C:\Users\Sam\AppData\Local\Temporary Projects\Black protect\obj\Debug\Black protect.pdb
+D:\Black protect\Black protect\obj\Debug\Black protect.exe
+D:\Black protect\Black protect\obj\Debug\Black protect.xml
+D:\Black protect\Black protect\obj\Debug\Black protect.pdb
+D:\Black protect\Black protect\bin\Debug\Black protect.exe
+D:\Black protect\Black protect\bin\Debug\Black protect.pdb
+D:\Black protect\Black protect\bin\Debug\Black protect.xml
+D:\Black protect\Black protect\obj\Debug\Black_protect.Form1.resources
+D:\Black protect\Black protect\obj\Debug\Black_protect.Resources.resources
+D:\Black protect\Black protect\obj\Debug\Black protect.vbproj.GenerateResource.Cache
+D:\Blackprotect\Blackprotect\obj\Debug\Black protect.exe
+D:\Blackprotect\Blackprotect\obj\Debug\Black protect.xml
+D:\Blackprotect\Blackprotect\obj\Debug\Black protect.pdb
+D:\Blackprotect\Blackprotect\bin\Debug\Black protect.exe
+D:\Blackprotect\Blackprotect\bin\Debug\Black protect.pdb
+D:\Blackprotect\Blackprotect\bin\Debug\Black protect.xml
+D:\Blackprotect\Blackprotect\obj\Debug\Black_protect.Form1.resources
+D:\Blackprotect\Blackprotect\obj\Debug\Black_protect.Resources.resources
+D:\Blackprotect\Blackprotect\obj\Debug\Black protect.vbproj.GenerateResource.Cache
+U:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.exe
+U:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.xml
+U:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.pdb
+U:\Programmation\Blackprotect\Blackprotect\bin\Debug\Black protect.exe
+U:\Programmation\Blackprotect\Blackprotect\bin\Debug\Black protect.pdb
+U:\Programmation\Blackprotect\Blackprotect\bin\Debug\Black protect.xml
+U:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black_protect.Form1.resources
+U:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black_protect.Resources.resources
+U:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.vbproj.GenerateResource.Cache
+E:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.exe
+E:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.xml
+E:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.pdb
+E:\Programmation\Blackprotect\Blackprotect\bin\Debug\Black protect.exe
+E:\Programmation\Blackprotect\Blackprotect\bin\Debug\Black protect.pdb
+E:\Programmation\Blackprotect\Blackprotect\bin\Debug\Black protect.xml
+E:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black_protect.Form1.resources
+E:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black_protect.Resources.resources
+E:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.vbproj.GenerateResource.Cache
+S:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.exe
+S:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.xml
+S:\Programmation\Blackprotect\Blackprotect\obj\Debug\Black protect.pdb

